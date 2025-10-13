@@ -919,6 +919,7 @@ ifneq ($(EXTRA_OBJS),)
 endif
 
 OBJS += src/mux_h2.o src/mux_h1.o src/mux_fcgi.o src/log.o		\
+        src/flt_placemark.o \
         src/server.o src/stream.o src/tcpcheck.o src/http_ana.o		\
         src/stick_table.o src/tools.o src/mux_spop.o src/sample.o	\
         src/activity.o src/cfgparse.o src/peers.o src/cli.o		\
